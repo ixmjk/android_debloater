@@ -1,6 +1,6 @@
 # Android Debloater
 
-**Android Debloater** is a GUI program written in Python that offers a user-friendly interface to streamline the process of managing installed packages on Android devices. Android Debloater operates without requiring root access, making it a convenient and safe option for optimizing your device's performance. By utilizing the power of ADB (Android Debug Bridge) and PyQt5, this tool allows users to easily remove bloatware, enhance device performance, and create/share debloat configs with others.
+**Android Debloater** is a program written in Python that offers a user-friendly interface to streamline the process of managing installed packages on Android devices. Android Debloater operates without requiring root access, making it a convenient and safe option for optimizing your device. By utilizing the power of [ADB (Android Debug Bridge)](https://developer.android.com/tools/adb) and [PyQt5](https://pypi.org/project/PyQt5/), this tool allows users to easily remove bloatware, enhance device performance, and create/share debloat configs with others.
 
 ![python_FOKz2rIzqH](https://github.com/ixmjk/android_debloater/assets/66163456/3f43c8ff-9a8e-4965-8606-c8eb97ab4238)
 
@@ -95,7 +95,7 @@ python android_debloater.py
    - Click on the "**Reinstall Selected**" button to restore the selected packages.
 
 9. **Create and Import Debloat Config:**
-   - A debloat config is a configuration file that contains a list of package names, which are considered safe to remove from an Android device.
+   - A debloat config is a configuration file that contains a list of package names, which are considered safe to remove from an Android device. Here is a [sample debloat config](https://github.com/ixmjk/android_debloater/blob/main/sample_config.cfg).
    - Android Debloater offers a convenient way to debloat your phone by creating or importing a debloat configuration.
    - To create a debloat config, select packages you consider safe to remove in the **Installed Packages** tab, then click  **File** > **Export Selected...**, or you can use the shortcut `Ctrl + E` to export.
 
